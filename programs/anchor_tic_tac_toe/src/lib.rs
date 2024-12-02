@@ -1,14 +1,14 @@
 use anchor_lang::prelude::*;
 use num_derive::*;
 use num_traits::*;
-declare_id!("8HihNokjX2nFDPktFWh7oWN3Bzq9QTeqCE3L4t4gu8EQ");
+declare_id!("124oUeGj5FfianVs8yzyywLr8GjoyfD5jGdwT9wS3UMK");
 
 pub const MAXIMUM_SIZE: usize = (32 * 2) + 1 + (12 * (1 + 1)) + (32 + 1);
 
 #[program]
-pub mod anchortictactoe_1113 {
+pub mod anchor_tic_tac_toe {
 
-    use anchor_lang::{context, solana_program::nonce::State};
+    // use anchor_lang::{context, solana_program::nonce::State};
 
     use super::*;
 

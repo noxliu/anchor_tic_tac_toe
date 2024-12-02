@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-anchortictactoe_1113 = "8HihNokjX2nFDPktFWh7oWN3Bzq9QTeqCE3L4t4gu8EQ"
+anchortictactoe_1113 = "124oUeGj5FfianVs8yzyywLr8GjoyfD5jGdwT9wS3UMK"
 
 [registry]
 url = "https://api.apr.dev"

@@ -1,14 +1,13 @@
 import * as anchor from "@coral-xyz/anchor";
 import { AnchorError, Program } from "@coral-xyz/anchor";
-import { Anchortictactoe1113 } from "../target/types/anchortictactoe_1113";
+import { AnchorTicTacToe } from "../target/types/anchor_tic_tac_toe";
 import { expect } from "chai";
 
-describe("anchortictactoe_1113", () => {
+describe("anchor_tic_tac_toe", () => {
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.AnchorProvider.env());
 
-  const program = anchor.workspace
-    .Anchortictactoe1113 as Program<Anchortictactoe1113>;
+  const program = anchor.workspace.AnchorTicTacToe as Program<AnchorTicTacToe>;
   const programProvider = program.provider as anchor.AnchorProvider;
 
   it("Is initialized!", async () => {
